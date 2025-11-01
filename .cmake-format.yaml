@@ -1,0 +1,7 @@
+# Formatting rules for cmake-format
+tab_size: 2
+line_width: 100
+dangle_parens: true
+separate_ctrl_name_with_space: true
+space_before_paren: false
+max_subargs_per_line: 3
