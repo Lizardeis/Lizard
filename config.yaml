@@ -1,0 +1,24 @@
+project:
+  name: Lizard
+  version: 0.3.2
+  author: "TwopTheCreator"
+  license: Apache 2.0
+
+build:
+  type: Release
+  optimization: O2
+  compiler: g++
+  standard: c++20
+  warnings_as_errors: true
+  output_dir: build/bin
+  include_dirs:
+    - source/
+  defines:
+    - USE_LOGGING
+    - ENABLE_DEBUG_OUTPUT
+
+runtime:
+  log_level: info
+  temp_path: ./tmp/
+  cache_enabled: true
+  threads: 4
