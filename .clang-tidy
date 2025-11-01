@@ -1,0 +1,10 @@
+Checks: >
+  bugprone-*,
+  performance-*,
+  readability-*,
+  modernize-*,
+  cppcoreguidelines-*,
+  -cppcoreguidelines-owning-memory
+WarningsAsErrors: '*'
+HeaderFilterRegex: 'source/'
+FormatStyle: file
