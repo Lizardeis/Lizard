@@ -1,0 +1,13 @@
+[build]
+compiler = "clang++"
+std = "c++20"
+warnings = true
+optimize = true
+
+[paths]
+include = "source"
+output = "build/output"
+
+[options]
+use_cache = true
+verbose = false
