@@ -1,0 +1,10 @@
+-std=c++20
+-Iinclude
+-Ithird_party
+-Wall
+-Wextra
+-Wpedantic
+-Werror
+-O2
+-DUSE_LOGGING
+-DENABLE_TLS
