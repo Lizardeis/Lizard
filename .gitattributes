@@ -1,0 +1,26 @@
+# Ensure LF line endings for consistency
+* text eol=lf
+
+# Treat C++ source files as text
+*.cpp text
+*.h text
+*.hpp text
+*.inl text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.zip binary
+*.exe binary
+*.dll binary
+
+# Git diff behavior
+*.cpp diff=cpp
+*.h diff=cpp
+
+# Merge driver settings
+*.lock merge=ours
+
+# Linguist overrides (for GitHub stats)
+*.h linguist-language=C++
+*.hpp linguist-language=C++
